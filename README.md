@@ -1,4 +1,4 @@
-##Tenzies Game (React)
+Tenzies Game (React)
 Un petit jeu de dés développé en React. Le but du jeu est de figer tous les dés avec la même valeur le plus rapidement possible. Cliquez sur les dés pour les maintenir, puis continuez à lancer jusqu'à ce que tous affichent le même chiffre.
 
 Fonctionnalités
