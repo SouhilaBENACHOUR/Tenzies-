@@ -1,12 +1,39 @@
-# React + Vite
+##Tenzies Game (React)
+Un petit jeu de dés développé en React. Le but du jeu est de figer tous les dés avec la même valeur le plus rapidement possible. Cliquez sur les dés pour les maintenir, puis continuez à lancer jusqu'à ce que tous affichent le même chiffre.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fonctionnalités
+ -10 dés générés aléatoirement
+ -Clic sur un dé pour le figer (toggle isHeld)
+ -Gagnez lorsque tous les dés sont figés et ont la même valeur
+ -Affichage de confettis lorsque vous gagnez
+ -Bouton "New Game" qui réinitialise les dés
+ -Focus automatique du bouton "New Game" pour les utilisateurs clavier
 
-Currently, two official plugins are available:
+Technologies utilisées
+ -React
+ -nanoid – pour générer des IDs uniques
+ -react-confetti – pour les effets de victoire 🎊
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
+ -Clone ce dépôt :
+  git clone https://github.com/SouhilaBENACHOUR/Tenzies-.git
+ -Accède au dossier :
+  cd tenzies
+Installe les dépendances :
 
-## Expanding the ESLint configuration
+ -npm install
+Installe également le module react-confetti :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ -npm install react-confetti
+Lance l'application :
+
+ -npm run dev
+
+Idées d'amélioration
+ -Ajouter un chronomètre ou un compteur de tours
+ -Enregistrer les meilleurs scores
+ -Version mobile responsive
+ -Son ou animations supplémentaires
+
+Auteure
+Souhila BENACHOUR – [https://www.linkedin.com/in/souhila-benachour/]
